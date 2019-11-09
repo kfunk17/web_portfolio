@@ -1,0 +1,632 @@
+/* This is the stylesheet for index.html for personal portfolio
+   Author: Karie Funk
+   Code attribution: CS3 Schools
+*/
+
+.article{
+  background-image:url("Images/anotherone.jpg");
+  background-color: #3d3939;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  background-attachment: fixed;
+  
+}
+
+.web-design{
+  background-image:url("Images/flowerbak101.jpg");
+  background-color: #3d3939;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  background-attachment: fixed;
+  border-top:1px solid white;
+}
+
+.gd{
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  font-family: 'Darker Grotesque', sans-serif;
+  font-weight: bold;
+  padding-top:50px;
+  margin-bottom:-50px;
+}
+
+.back{
+  background-image:url("Images/anotherone.jpg");
+  background-color: #3d3939;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  background-attachment: fixed;
+  margin-top:-40px;
+  margin-bottom:-59px;
+}
+
+#topImage{
+  background-image:url("Images/computerfinal.jpg");
+  font-family: 'Questrial', sans-serif;
+  background-color: #3d3939;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 1920px;
+  text-align: center;
+  padding-top:20em;
+  width:100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 450px;
+}
+
+.article p{
+  color: white;
+  margin-left:35px;
+  margin-right:35px;
+}
+
+#text {
+  position: absolute; 
+  text-align: center;
+  width: 100%;
+  height: 0%;
+  margin: auto;
+  top: -200px;;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 51;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size:80px;
+  text-shadow: -3px -3px 3px #000;
+}
+
+
+* { color:#fff; text-decoration: none;}
+
+p{
+  font-family: 'Darker Grotesque', sans-serif;
+  color: black;
+ }
+   
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+    height: auto;
+    margin: 0px;
+    margin-top: -5px;
+   
+}
+
+footer{
+  background-color: black;
+  text-align: center;
+  height: 30px;
+  color: white;
+  font-family: 'Darker Grotesque', sans-serif;
+  border-top: 1px solid white;
+}
+
+.img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  padding-top: 70px;
+  width:300px;
+  height: auto;
+ 
+}
+
+* {box-sizing: border-box}
+body {font-family: Arial, Helvetica, sans-serif;}
+
+.navbar1 {
+  width: 100%;
+  margin-bottom:-20px;
+  overflow: hidden;
+  background-color: #212429;
+  border-top:2px solid white;
+  border-bottom: 1px solid white;
+  z-index: 99999;
+  
+}
+
+.navbar1 a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  text-align: center;
+  display: block;
+  font-family: 'Questrial', sans-serif;
+}
+
+.navbar1 a:hover {
+  background-color: white;
+  color: black;
+}
+
+.navbar1 a.active {
+  color: #b2d690;
+}
+
+.navbar1 a.active:hover{
+  color: black;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  overflow: none;
+
+
+}
+
+.sticky + .content {
+  padding-top: 60px;
+
+}
+
+
+.about{
+  font-size: 1.60em;
+  text-align: left; /* For Edge */
+  -moz-text-align-last: justify; /* For Firefox prior 58.0 */
+  text-align-last: left;
+  padding: 35px;
+  text-align: justify;
+  text-justify: inter-word;
+  
+}
+
+.about p{
+  padding-bottom:125px;
+}
+
+.about a{
+   color: white;
+   text-decoration: none;
+}
+
+.about a:hover{
+  color: #b2d690;
+}
+
+.about a:active{
+  color: white;
+}
+
+.about-space{
+  height:100px;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  height:45px;
+  padding: 12px;
+  background: none;
+  border: 1px solid white;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  color: black;
+  background-color: white;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width:120px;
+  height:100%;
+}
+
+input[type=submit]:hover {
+  background-color: white;
+  color: green;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width:120px;
+  height:100%;
+}
+
+
+.container {
+  border-radius: 5px;
+  padding: 20px;
+  height: 400px;
+}
+
+#GD{
+  padding-top:60px;
+  padding-bottom:20px;
+  color: black;
+  margin: 0 auto;
+  font-size: 40px;
+  text-align: center;
+  font-family: 'Questrial', sans-serif;
+}
+
+.proj, .contact{
+  padding-top:60px;
+  padding-bottom:20px;
+  color: white;
+  margin: 0 auto;
+  font-size: 40px;
+  text-align: center;
+  font-family: 'Questrial', sans-serif;
+
+}
+
+button{
+  margin-left:400px;
+
+}
+
+label {
+  display:block;
+  margin-top:20px;
+  letter-spacing:2px;
+}
+
+form {
+  margin:0 auto;
+  width:459px;
+  padding-bottom:100px;
+}
+
+.contacth1{
+  color: white;
+  padding-top:45px;
+  padding-bottom:20px;
+  margin: 0 auto;
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Darker Grotesque', sans-serif;
+}
+
+.contactp{
+  color: white;
+  padding-bottom:20px;
+  margin: 0 auto;
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Darker Grotesque', sans-serif;
+}
+
+input, textarea {
+  width:439px;
+  height:27px;
+  background:#efefef;
+  border:1px solid #dedede;
+  padding:10px;
+  margin-top:3px;
+  font-size:0.9em;
+  color:#3a3a3a;
+  -moz-border-radius:5px;
+  -webkit-border-radius:5px;
+  border-radius:5px;
+
+}
+input:focus, textarea:focus {
+  border:1px solid #97d6eb;
+}
+
+#submit {
+  width:127px;
+  height:38px;
+  background:url(images/submit.jpg);
+  text-indent:-9999px;
+  border:none;
+  margin-top:20px;
+  cursor:pointer;
+
+}
+
+#submit:hover {
+    opacity:.9;
+}
+
+/* Style the text boxes */
+input, textarea {
+width:439px;
+height:27px;
+background:#efefef;
+border:1px solid #dedede;
+padding:10px;
+margin-top:3px;
+font-size:0.9em;
+color:#3a3a3a;
+}
+
+
+.cont{
+    background-image:url("Images/anotherone.jpg");
+    background-color: #3d3939;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    border-top: 1px solid white;
+    height:850px;
+    
+}
+            
+/*Responsive code */
+@media screen and (max-width: 700px) {
+  .navbar1 a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-family: 'Questrial', sans-serif;
+  }
+
+.img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    padding-top: 30px;
+   
+}
+
+#text {
+  position: absolute; 
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  top: -200px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  text-shadow: -3px -3px 3px #000;
+  font-size: 80px;
+}
+
+#about h2{
+    margin-left:90px;
+}
+
+
+}
+
+.Karie{
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 35px;
+  }
+
+
+
+h3, p{
+  color:white;
+}
+
+h3 a{
+  text-decoration: none;
+  font-family: 'Didact Gothic', sans-serif;
+}
+
+h3 a:hover{
+  color: blue;
+  text-decoration: none;
+}
+
+.contact{
+   margin-top:-58px;
+   border-top:1px solid white;
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+/*Gallery*/
+
+.heading {
+  padding-top:45px;
+  padding-bottom:20px;
+  color: black;
+  margin: 0 auto;
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Darker Grotesque', sans-serif;
+  
+}
+
+
+.proj-gal{
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.proj-gal img {
+  height: 250px;
+  width: 350px;
+  transform: scale(1.0);
+  transition: transform 0.4s ease;
+}
+
+.round{
+  box-sizing: content-box;
+  margin: 20px;
+  height: 200px;
+  width: 330px;
+  overflow: hidden;
+  display: inline-block;
+  color: white;
+  position: relative;
+  border: 2px solid white;
+
+}
+
+
+.space{
+
+  height:400px;
+
+}
+.caption {
+  position: absolute;
+  bottom: 5px;
+  left: 20px;
+  opacity: 0.0;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.title{
+font-size: 35px;
+text-decoration: none;
+}
+
+.title:hover{
+
+  color: blue;
+  text-decoration: none;
+}
+
+.title:active{
+  color: lightgreen;
+}
+
+.top-coat{
+  height: 250px;
+  width: 350px;
+  background-color:rgba(0, 0, 0, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: background-color 0.3s ease;
+}
+
+.round:hover img { 
+  transform: scale(1.1);
+}
+
+.round:hover .top-coat{
+  background-color:rgba(0, 0, 0, 0.5);
+}
+
+.round:hover .caption {
+  transform: translateY(-20px);
+  opacity: 1.0;
+}
+
+.round:hover {
+  cursor: pointer;
+
+}
+
+.caption > p:nth-child(2) {
+  font-size: 0.8em;
+
+}
+
+.opacity-low {
+  opacity: 0.5;
+}
+
+.galla {
+  border-top:1px solid white;
+  background-color: #202125;
+  width:100%;
+  margin-top:-40px;
+  margin-bottom:-70px;
+}
+ 
+
+.galla img{
+  max-width: 100%;
+  height: auto;
+}
+
+.galla p{
+  color: white;
+  padding-top:50px;
+}
+
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 1090px) {
+  .column {
+    width: 100%;
+  }
+
+  #text {
+    position: absolute; 
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    top: -200px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size:80px;
+    text-shadow: -3px -3px 3px #000;
+  }
+
+
+
+  
+ 
+  
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+
+  #text {
+    position: absolute; 
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    top: -200px;;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size:60px;
+    text-shadow: -3px -3px 3px #000;
+  }
+
+
+
+  .img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    padding-top: 30px;
+    width:270px;
+    height: 340px;
+}
+  
+
+}
+
+
