@@ -11,11 +11,11 @@
   background-size: cover;
   height: 100%;
   background-attachment: fixed;
-  
+  overflow-x: hidden;
 }
 
 .web-design{
-  background-image:url("Images/flowerbak101.jpg");
+  background-image:url("Images/flowerbak101_opt.jpg");
   background-color: #3d3939;
   background-position: center;
   background-repeat: no-repeat;
@@ -23,6 +23,7 @@
   height: 100%;
   background-attachment: fixed;
   border-top:1px solid white;
+  overflow-x:hidden;
 }
 
 .gd{
@@ -368,7 +369,7 @@ color:#3a3a3a;
     background-size: cover;
     border-top: 1px solid white;
     height:850px;
-    
+    overflow-x: hidden;
 }
             
 /*Responsive code */
@@ -437,11 +438,6 @@ h3 a:hover{
    border-top:1px solid white;
 }
 
-
-
-* {
-  box-sizing: border-box;
-}
 
 /*Gallery*/
 
@@ -557,6 +553,7 @@ text-decoration: none;
   width:100%;
   margin-top:-40px;
   margin-bottom:-70px;
+  overflow-x: hidden;
 }
  
 
@@ -588,12 +585,6 @@ text-decoration: none;
     font-size:80px;
     text-shadow: -3px -3px 3px #000;
   }
-
-
-
-  
- 
-  
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
@@ -628,5 +619,6 @@ text-decoration: none;
   
 
 }
+
 
 
