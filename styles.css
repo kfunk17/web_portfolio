@@ -103,7 +103,7 @@ body{
     height: auto;
     margin: 0px;
     margin-top: -5px;
-   
+    overflow-x:hidden;
 }
 
 footer{
