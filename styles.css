@@ -123,7 +123,6 @@ footer{
   margin-bottom: 30px;
   padding-top: 70px;
   width:300px;
-  height: auto;
  
 }
 
@@ -439,6 +438,11 @@ h3 a:hover{
 }
 
 
+
+* {
+  box-sizing: border-box;
+}
+
 /*Gallery*/
 
 .heading {
@@ -619,6 +623,5 @@ text-decoration: none;
   
 
 }
-
 
 
